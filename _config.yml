@@ -107,26 +107,33 @@ author:
   avatar           : "assets/images/avatar-512x512.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Software developer generalist, visual artist, overthinker."
   location         : "Kraków, Poland, EU 🇪🇺"
-  email            : marcin@mm.st
+  # email            : marcin@mm.st
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.name@email.com"
+      url: "/contact"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/marcinbiegun"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/spacecatlabs"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCixNBzP4tZq5jwwxP-nd68w/featured"
+    - label: "Resume"
+      icon: "fa fa-fw fa-file-alt"
+      url: "/assets/files/marcinbiegun.pdf"
+
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 # Site Footer
 footer:
