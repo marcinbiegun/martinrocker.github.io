@@ -4,10 +4,10 @@ title: Procrastination hack with Bitbar and Taskpaper - return to current task
 categories: productivity
 github_issue_id: 7
 
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/teasers/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg
+# header:
+#   overlay_color: "#000"
+#   overlay_filter: "0.5"
+#   overlay_image: /assets/teasers/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg
 ---
 
 Today I've introduced a little productivity hack called "return to current task".

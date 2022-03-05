@@ -28,7 +28,7 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : # "assets/images/avatar-512x512.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # "assets/images/avatar-512x512.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -105,9 +105,9 @@ analytics:
 author:
   name             : "Martin Rocker"
   avatar           : "assets/images/avatar-512x512.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software developer generalist, visual artist, overthinker."
+  bio              : "Software developer generalist, visual artist, overthinker.\n\nCurrently I'm working as an Unreal Engine C++ Gameplay Developer at Anshar Studios."
   location         : "Kraków, Poland, EU 🇪🇺"
-  # email            : marcin@mm.st
+  # email            : myemail@example.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -123,7 +123,7 @@ author:
       url: "https://www.youtube.com/channel/UCixNBzP4tZq5jwwxP-nd68w/featured"
     - label: "Resume"
       icon: "fa fa-fw fa-file-alt"
-      url: "/assets/files/marcinbiegun.pdf"
+      url: "/assets/documents/marcinbiegun.pdf"
 
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -157,6 +157,12 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 
+# Content types
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # Reading Files
 include:
@@ -297,3 +303,23 @@ defaults:
       comments: # true
       share: false
       related: false
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      header:
+        teaser: /assets/unsplash/jean-philippe-delberghe-75xPHEQBmvA-unsplash-640x426.jpg
+        overlay_image: /assets/unsplash/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg
+        overlay_color: "#000"
+        overlay_filter: "0.5"
+        # og_image: /assets/teasers/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg
+        # show_overlay_excerpt: true
+        # overlay_image: /assets/teasers/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg
+        # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+        # actions:
+        #   - label: "More Info"
+        #     url: "https://unsplash.com"
