@@ -31,6 +31,25 @@ My VJ Projects can be seen here: <a href="/portfolio">VJ Portfolio</a>.
 - Creative explorations. Notch is my favourite tools for prototyping abstract pieces, Unreal Engine is great for building
   environments. I also learn random Tech Art stuff: animations, procedural animations, I use Houdini for that.
 
+## Unreal Engine
+
+### HappyInteractions (2022)
+
+{% include figure image_path="/assets/images/happyinteractions.png" alt="HappyInteractions" %}
+
+Interaction system I've written for my own adventure game. The system
+consists of three elements:
+
+- **Activators** initiate the operation,
+- **Conditions** check if the operation should be executed,
+- **Actions** are executed if conditions are passing.
+
+All elements can be extended with blueprints.
+
+It' work in progress, it needs some refacetoring and proper module packaging, but it's working.
+
+[https://github.com/marcinbiegun/HappyInteractions](https://github.com/marcinbiegun/HappyInteractions)
+
 ## Creative Coding Experiments
 
 ### UnityMidiSpawer (2019)
@@ -91,7 +110,7 @@ A collection of programs I've wrote during learning from courses and tutorials.
 
 Elixir-based multiplayer realtime 2D zombie shooter. This was an experiment on implementing a game using ECS pattern.
 
-The experiment has proved that building ECS systems in Elixir doesn't make any sense.
+The experiment has proved that building ECS systems in Elixir doesn't make much sense.
 
 [https://github.com/marcinbiegun/elixir-tanks](https://github.com/marcinbiegun/elixir-tanks)
 
