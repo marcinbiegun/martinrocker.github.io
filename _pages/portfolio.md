@@ -7,4 +7,4 @@ entries_layout: grid
 classes: wide
 ---
 
-A collection of my VJ projects that were successfullly deployed. They are mostly interactive installations presented at Egodrop parties' art galleries.
+A collection of my VJ projects that were successfullly deployed to art galleries and rave parties.
