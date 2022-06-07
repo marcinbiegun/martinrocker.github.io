@@ -84,13 +84,19 @@ make it run in TD, exposes predefined parameters.
 
 ### Blender script for exporting font characters as 3d models (2019)
 
-{% include figure image_path="https://raw.githubusercontent.com/marcinbiegun/font-to-obj/master/docs/font-to-obj.png" alt="isf-touchdesinger" %}
+{% include figure image_path="https://raw.githubusercontent.com/marcinbiegun/font-to-obj/master/docs/font-to-obj.png" alt="font-to-obj" %}
 
 A script for Batch conversion of single font characters to extruded OBJ models.
 
 Uses Blender and Inkspace from command line interfaces. Is pretty slow but results are good.
 
 [https://github.com/marcinbiegun/FontMeshExporter](https://github.com/marcinbiegun/FontMeshExporter)
+
+### ISF Pixel Shaders
+
+{% include figure image_path="/assets/images/jpg-glitch.jpg" alt="ISF shader jpg artifacts" %}
+
+[JPG Glitch](https://editor.isf.video/shaders/3187)
 
 ## Coding experiments
 
