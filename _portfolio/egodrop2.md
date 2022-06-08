@@ -8,7 +8,7 @@ details:
   event:
     text: "Egodrop: Save Goadupa w/ Braincell & Solar Spectrum"
     url: https://www.facebook.com/events/318334432304947/
-  venue: Forum Wydrzeń, Kraków
+  venue: Forum Wydarzeń, Kraków
   software: Notch, TouchDesigner
   hardware: Kinect
 

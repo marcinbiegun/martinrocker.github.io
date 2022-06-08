@@ -8,7 +8,7 @@ details:
   event:
     text: "Egodrop: Deep & Freaky w/ Fagin's Reject"
     url: https://www.facebook.com/events/2733999090019078
-  venue: Forum Wydrzeń, Kraków
+  venue: Forum Wydarzeń, Kraków
   software: Notch, TouchDesigner
   hardware: LeapMotion
 

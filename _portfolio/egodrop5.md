@@ -8,7 +8,7 @@ details:
   event:
     text: "Egodrop: Unity w/ Dj Giuseppe & Sundial Aeon"
     url: https://www.facebook.com/events/463180011190509/
-  venue: Forum Wydrzeń, Kraków
+  venue: Forum Wydarzeń, Kraków
   software: Notch, TouchDesigner
   hardware: LeapMotion
 

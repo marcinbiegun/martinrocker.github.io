@@ -8,7 +8,7 @@ details:
   event:
     text: "Egodrop: Universal Love w/ Atriohm - A Save Goadupa Party"
     url: https://www.facebook.com/events/2326504864244610/
-  venue: Forum Wydrzeń, Kraków
+  venue: Forum Wydarzeń, Kraków
   software: Notch, TouchDesigner
   hardware: Kinect
 

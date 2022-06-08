@@ -8,7 +8,7 @@ details:
   event:
     text: "Egodrop: Overloaded - a Save Goadupa party"
     url: https://www.facebook.com/events/608633819593959/
-  venue: Forum Wydrzeń, Kraków
+  venue: Forum Wydarzeń, Kraków
   software: Notch, TouchDesigner
   hardware: Leap Motion
 
