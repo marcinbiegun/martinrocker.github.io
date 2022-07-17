@@ -5,7 +5,7 @@ permalink: "/about/"
 author_profile: true
 ---
 
-{% include figure image_path="/assets/images/with-zbyniu-1251x1024.jpg" alt="Me with my cat Zbyniu, chillin in the park (2020)" caption="Me with my cat Zbytniu, chillin' in a park, Kraków 2020." %}
+{% include figure image_path="/assets/images/with-zbyniu-1251x1024.jpg" alt="Me with my cat Zbyniu, chillin in a park, Kraków 2020" caption="Me with my cat Zbyniu, chillin' in a park, Kraków 2020" %}
 
 I’m a self-taught (late diagnosed neuroatypical) software developer generalist who enjoys constant learning and solving complex issues with simple solutions.
 
